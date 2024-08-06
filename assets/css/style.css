@@ -1,5 +1,23 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.section--center {
+    align-items: center;
+}
+
+.section__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .contact-form {
     display: flex;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     gap: 16px;
