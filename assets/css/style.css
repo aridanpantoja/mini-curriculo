@@ -33,6 +33,27 @@
     font-weight: 500;
 }
 
+.avatar__socials {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background-color: #4f46e5;
+    color: #f8fafc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.button:hover {
+    background-color: #6366f1;
+    cursor: pointer;
+}
+
 .section--center {
     align-items: center;
 }
