@@ -1,3 +1,7 @@
+* {
+    font-family:  'Plus Jakarta Sans', sans-serif;
+}
+
 .section {
     display: flex;
     flex-direction: column;
