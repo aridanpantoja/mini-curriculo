@@ -56,3 +56,6 @@ a {
 input {
 	outline: none;
 }
+button {
+	border: none;
+}
