@@ -144,3 +144,8 @@ main {
     resize: none;
     min-height: 140px;
 }
+
+.about__description {
+    max-width: 768px;
+    text-align: center;
+}
