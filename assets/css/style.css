@@ -4,10 +4,21 @@
     --primary: #4f46e5;
     --accent: #6366f1;
     --muted: #94a3b8;
+    --border:1px solid var(--muted);
 }
 
 html {
     font-family:  'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar {
+    border-bottom: var(--border);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .section {
