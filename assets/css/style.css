@@ -174,15 +174,16 @@ html {
     font-weight: 700;
 }
 
-.data__logo {
-    text-align: center;
+.data__enterprise {
+    font-weight: 600;
 }
 
-.table__heading, .data__enterprise, .data__role, .data__stack, .data__logo {
+.table__heading, .data__enterprise, .data__role, .data__stack{
     text-align: center;
     vertical-align: middle;
-    padding-bottom: 16px;
+    padding: 12px 0px;
     font-size: 18px;
+    border: var(--border);
 }
 
 .languages-grid, .interests-grid {
