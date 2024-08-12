@@ -51,8 +51,9 @@
 
         <section id="about" class="section">
             <h2 class="section__title">Sobre mim</h2>
-            <p class="about__description">Profissional cursando Bacharelado em Engenharia de Computação e Técnico em
-                Redes de Computadores que, aos
+            <p class="about__description">
+                Profissional cursando Bacharelado em Engenharia de Computação e Técnico em Redes de Computadores que,
+                aos
                 21 anos, acumula vasta experiência no desenvolvimento de softwares e interfaces web. Experiente na
                 condução de projetos front-end, com foco na criação de interfaces intuitivas e responsivas. Ampla
                 aptidão em aplicação e aprendizagem de linguagens de marcação e estilização, bem como frameworks
@@ -62,14 +63,75 @@
 
         <section id="experiences" class="section">
             <h2 class="section__title">Experiências</h2>
+            <table class="experiences__table">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__heading">Logo</th>
+                        <th class="table__heading">Empresa</th>
+                        <th class="table__heading">Cargo</th>
+                        <th class="table__heading">Stack</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="data__logo">
+                            <div>
+                                <img src="./assets/images/ufpa.jpg" alt="Logo da Universidade Federal do Pará"
+                                    width="48" height="48" />
+                            </div>
+                        </td>
+                        <td class="data__enterprise">
+                            UFPA
+                        </td>
+                        <td class="data__role">Professor de Informática Básica</td>
+                        <td class="data__stack">Next.js, Tailwind, Typescript</td>
+                    </tr>
+                    <tr>
+                        <td class="data__logo">
+                            <div>
+                                <img src="./assets/images/ufpa.jpg" alt="Logo da Universidade Federal do Pará"
+                                    width="48" height="48" />
+                            </div>
+                        </td>
+                        <td class="data__enterprise">
+                            UFPA
+                        </td>
+                        <td class="data__role">Desenvolvedor Web</td>
+                        <td class="data__stack">HTML, CSS, Javascript</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-        <section id="stack" class="section">
-            <h2 class="section__title">Stack</h2>
+        <section id="languages" class="section">
+            <h2 class="section__title">Linguagens</h2>
+            <div class="languages__grid">
+                <div class="language-card">
+                    <h3 class="language-card__name">Português - Nativo</h3>
+                    <div class="language-card__level" id="portuguese-level"></div>
+                </div>
+                <div class="language-card">
+                    <h3 class="language-card__name">Inglês - Intermediário</h3>
+                    <div class="language-card__level" id="english-level"></div>
+                </div>
         </section>
 
         <section id="interests" class="section">
             <h2 class="section__title">Interesses</h2>
+            <ul class="interests__list">
+                <li class="interests__item">
+                    <img src="./assets/images/adatech.jpeg" width="64" height="64" class="item__logo" />
+                    <div class="item__info">
+                        <h3>Ada Tech</h3>
+                    </div>
+                </li>
+                <li class="interests__item">
+                    <img src="./assets/images/adatech.jpeg" width="64" height="64" class="item__logo" />
+                    <div class="item__info">
+                        <h3>Seazone</h3>
+                    </div>
+                </li>
+            </ul>
         </section>
 
         <section id="contact" class="section section--center">
