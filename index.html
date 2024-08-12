@@ -16,21 +16,21 @@
 
 <body>
     <header class="navbar">
-        <div class="container">
+        <div class="navbar__container container">
             <span class="logo">aridan.dev</span>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">Sobre Mim</a></li>
-                    <li><a href="#">Experiências</a></li>
-                    <li><a href="#">Linguagens</a></li>
-                    <li><a href="#">Interesses</a></li>
-                    <li><a href="#">Contato</a></li>
+            <nav>
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Sobre Mim</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Experiências</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Linguagens</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Interesses</a></li>
+                    <li class="nav-menu__item"><a href="#" class="nav-menu__link">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <section id="hero" class="section">
             <div class="avatar">
                 <img src="./assets/images/profile.webp" alt="Foto de Aridan Pantoja" class="avatar__image">
@@ -105,36 +105,49 @@
 
         <section id="languages" class="section">
             <h2 class="section__title">Linguagens</h2>
-            <div class="languages__grid">
-                <div class="language-card">
-                    <h3 class="language-card__name">Português - Nativo</h3>
-                    <div class="language-card__level" id="portuguese-level"></div>
-                </div>
-                <div class="language-card">
-                    <h3 class="language-card__name">Inglês - Intermediário</h3>
-                    <div class="language-card__level" id="english-level"></div>
-                </div>
+            <ul class="languages-grid">
+                <li class="languages-grid__item">
+                    <h3 class="item__name">Português - Nativo</h3>
+                    <div class="item__level" id="portuguese-level"></div>
+                </li>
+                <li class="languages-grid__item">
+                    <h3 class="item__name">Inglês - Intermediário</h3>
+                    <div class="item__level" id="english-level"></div>
+                </li>
+            </ul>
         </section>
 
         <section id="interests" class="section">
             <h2 class="section__title">Interesses</h2>
-            <ul class="interests__list">
-                <li class="interests__item">
+            <ul class="interests-grid">
+                <li class="interests-grid__item">
                     <img src="./assets/images/adatech.jpeg" width="64" height="64" class="item__logo" />
-                    <div class="item__info">
+                    <div class="item__name">
                         <h3>Ada Tech</h3>
                     </div>
                 </li>
-                <li class="interests__item">
-                    <img src="./assets/images/adatech.jpeg" width="64" height="64" class="item__logo" />
-                    <div class="item__info">
+                <li class="interests-grid__item">
+                    <img src="./assets/images/ufpa.jpg" width="64" height="64" class="item__logo" />
+                    <div class="item__name">
+                        <h3>UFPA</h3>
+                    </div>
+                </li>
+                <li class="interests-grid__item">
+                    <img src="./assets/images/ufpa.jpg" width="64" height="64" class="item__logo" />
+                    <div class="item__name">
                         <h3>Seazone</h3>
+                    </div>
+                </li>
+                <li class="interests-grid__item">
+                    <img src="./assets/images/ufpa.jpg" width="64" height="64" class="item__logo" />
+                    <div class="item__name">
+                        <h3>IBM</h3>
                     </div>
                 </li>
             </ul>
         </section>
 
-        <section id="contact" class="section section--center">
+        <section id="contact" class="section section--center ">
             <h2 class="section__title">Entre em contato</h2>
 
             <form class="contact-form">
@@ -149,7 +162,8 @@
         </section>
     </main>
     <footer class="footer">
-        Feito por Aridan. O código-fonte está disponível no Github
+        <p>Feito por Aridan. O código-fonte está disponível no <a href="https://github.com/aridanpantoja/mini-curriculo"
+                class="footer__link">Github</a></p>
     </footer>
 </body>
 
